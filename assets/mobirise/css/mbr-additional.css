@@ -537,6 +537,12 @@ a:hover {
 #content5-k .heading-text {
   font-size: 24px;
 }
+#msg-box4-r H1 {
+  color: #434343;
+}
+#msg-box4-r P {
+  color: #434343;
+}
 #menu1-1 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -619,4 +625,7 @@ a:hover {
 }
 #features3-j .features {
   background: #f6f7f8;
+}
+#features3-j .features-title {
+  text-align: center;
 }
