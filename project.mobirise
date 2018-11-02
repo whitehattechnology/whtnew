@@ -71,9 +71,9 @@
             "overlayColor": "#91683b",
             "overlayOpacity": 0.8
           },
-          "title": "<br><br>G Suite<br>Arizona",
+          "title": "G Suite for Arizona<br><br>",
           "text": "No problem too small, no idea too big.\n<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Download for Windows</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
           "media1": {
             "iconFont": {
               "class": "mbr-iconfont",
@@ -102,7 +102,7 @@
           },
           "title2": "Google Clound Services - G Suite",
           "subtitle2": "Awesome",
-          "text2": "Optimize your organization's productivity with Google's tools and resources.&nbsp;",
+          "text2": "Optimize your organization's productivity with our help and the use of Google tools and resources.&nbsp;",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
@@ -227,16 +227,17 @@
             "overlayOpacity": 0.8
           },
           "title": "Why WHT?<br><br>",
-          "text1": "Google Partner",
-          "text2": "G Suite Reseller",
-          "text3": "Experience",
+          "text1": "Professional Experience",
+          "text2": "Official G Suite Reseller",
+          "text3": "Your Local Partner",
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-lockup-docs-color-846x256.png",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/google-cloud-partner-badge-png-410x200.png",
+              "link": "https://cloud.withgoogle.com/partners/detail/?id=CIGAgICAgIDbxQE%3D&language=en&hl=en-US",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features4",
@@ -257,8 +258,8 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features4",
               "linkInNewWindow": false,
-              "name": "handshake-o",
-              "family": "FontAwesome",
+              "name": "like",
+              "family": "MobiriseIcons",
               "active": true,
               "link": "https://mobirise.com"
             }
@@ -275,11 +276,12 @@
           },
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "timer",
-              "link": "https://mobirise.com",
-              "family": "MobiriseIcons"
+              "linkInNewWindow": false,
+              "name": "handshake-o",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "https://mobirise.com"
             }
           },
           "_tags": [
@@ -469,66 +471,70 @@
           "title": "<b>Why G Suite?</b>",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "header": "Loads of benefits!",
+          "header": "Transform your Workplace",
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "credit-card",
+              "linkInNewWindow": false,
+              "name": "connecting-users",
+              "family": "icon54-v2",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 40,
-              "color": "#fff",
-              "family": "MobiriseIcons"
+              "color": "#fff"
             }
           },
-          "title1": "Responsive",
+          "title1": "Connect",
           "subtitle1": "Awesome",
-          "text1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptatum non dolor reprehenderit aliquid excepturi, veritatis magnam iste sunt culpa provident suscipit ea. Deleniti, animi?",
+          "text1": "Reach your colleagues wherever they are.\n<br>\n<br>\n<br>",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "edit",
+              "linkInNewWindow": false,
+              "name": "content-create",
+              "family": "Material-Design-Icons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 40,
-              "color": "#fff",
-              "family": "MobiriseIcons"
+              "color": "#fff"
             }
           },
-          "title2": "Web-fonts",
+          "title2": "Create",
           "subtitle2": "Awesome",
-          "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste sit quaerat rem vitae odio error consequatur, cum voluptatem eum explicabo vero, impedit quo, quae veniam.",
+          "text2": "Everything you need to bring your project to life in one place.<br>",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "pages",
+              "linkInNewWindow": false,
+              "name": "mouse-pointer",
+              "family": "FontAwesome",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 40,
-              "color": "#fff",
-              "family": "MobiriseIcons"
+              "color": "#fff"
             }
           },
-          "title3": "Unlimited Sites",
+          "title3": "Access",
           "subtitle3": "Awesome",
-          "text3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum reprehenderit omnis quis quaerat mollitia consequuntur fugiat nemo fuga, culpa, consequatur perferendis ipsam, aut, quam cum.",
+          "text3": "Store files and find what you need instantly.\n<br>",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media4": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "shoping-cart",
+              "linkInNewWindow": false,
+              "name": "lock",
+              "family": "mobirise-icons-bold",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 40,
-              "color": "#fff",
-              "family": "MobiriseIcons"
+              "color": "#fff"
             }
           },
-          "title4": "Trendy Website Blocks",
+          "title4": "Control",
           "subtitle4": "Awesome",
-          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quaerat corporis similique esse eius velit, officia consequuntur sequi voluptatum perspiciatis. Officiis quae beatae praesentium iure?",
+          "text4": "Manage users, devices, and data securely and easily.\n<br>\n<br>\n<br>",
           "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media5": {
             "iconFont": {
