@@ -73,7 +73,7 @@
           },
           "title": "<br>Your Local Technology Provider",
           "text": "No problem too small, no idea too big.\n<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"ContactUs.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
           "media1": {
             "iconFont": {
               "class": "mbr-iconfont",
@@ -618,7 +618,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showImage": true,
                 "showText": true,
@@ -630,15 +630,15 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showImage": true,
                 "showText": true,
                 "showTitle": true,
-                "image": "@PROJECT_PATH@/assets/images/logo-lockup-docs-color-846x256.png",
-                "title": "No coding and free!",
+                "image": "@PROJECT_PATH@/assets/images/gwc-logo-gmail-192-192x192.png",
+                "title": "Gmail",
                 "contentAlign": "center",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero odio facilis optio amet eum tenetur quos quam, autem culpa, illo, nemo itaque at placeat blanditiis.",
+                "text": "<br>Gmail keeps you updated with real-time message notifications, and safely stores your important emails and data. IT admins can centrally manage accounts across your organization and devices.&nbsp;<br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "alt": ""
               }
