@@ -20,22 +20,27 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#1b75bb"
+        "#1b75bb",
+        "#bef50a",
+        "#19b68f",
+        "#58baa0"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.2",
     "siteFonts": [],
-    "uniqCompNum": 52,
+    "uniqCompNum": 60,
     "versionPublish": "4.8.2",
     "favicon": "@PROJECT_PATH@/assets/images/wht-logo-only-128x155.png",
     "noImageResize": "",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "gdpr": "",
-    "google-analytics": "",
-    "siteUrl": "undefined",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-115016310-6\"></script>\r\n<script>\r\n window.dataLayer = window.dataLayer || [];\r\n function gtag(){dataLayer.push(arguments);}\r\n gtag('js', new Date());\r\n\r\n gtag('config', 'UA-115016310-6');\r\n</script>",
+    "siteUrl": "",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "on"
+    "robotsSwitcher": "on",
+    "screenshot": "screenshot.png",
+    "sitemapSwitcherAuto": "on"
   },
   "pages": {
     "index.html": {
@@ -44,7 +49,7 @@
         "title": "Home",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "<script async type=\"text/javascript\" src=\"//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/aa88a5646ec20a049a92dde8a5076c28d50c097c9cf0dd011897c73c8f010c7a.js\"></script> ",
         "html_before": ""
       },
       "components": [
@@ -216,8 +221,8 @@
             "iconsColor": "#434343",
             "iconsNumber": "three",
             "imageSize": 50,
-            "containerColor1": "#1cb4a9",
-            "containerColor2": "#bef50a",
+            "containerColor1": "#58baa0",
+            "containerColor2": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgImageRadio": false,
@@ -371,7 +376,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -496,9 +501,10 @@
               "name": "connecting-users",
               "family": "icon54-v2",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "page2.html",
               "size": 40,
-              "color": "#fff"
+              "color": "#fff",
+              "newWindow": false
             }
           },
           "title1": "Connect",
@@ -512,9 +518,10 @@
               "name": "content-create",
               "family": "Material-Design-Icons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "page2.html",
               "size": 40,
-              "color": "#fff"
+              "color": "#fff",
+              "newWindow": false
             }
           },
           "title2": "Create",
@@ -528,9 +535,10 @@
               "name": "mouse-pointer",
               "family": "FontAwesome",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "page2.html",
               "size": 40,
-              "color": "#fff"
+              "color": "#fff",
+              "newWindow": false
             }
           },
           "title3": "Access",
@@ -544,9 +552,10 @@
               "name": "lock",
               "family": "mobirise-icons-bold",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "page2.html",
               "size": 40,
-              "color": "#fff"
+              "color": "#fff",
+              "newWindow": false
             }
           },
           "title4": "Control",
@@ -678,7 +687,7 @@
               }
             }
           },
-          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\">Send message</a>",
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send message</a>",
           "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
           "_tags": [
             "Theme"
@@ -691,7 +700,7 @@
     "ContactUs.html": {
       "settings": {
         "title": "Contact Us",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -744,7 +753,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#5aac98!important"
+              "color": "#1b75bb!important"
             }
           },
           "_params": {
@@ -765,7 +774,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -932,7 +941,7 @@
     "page2.html": {
       "settings": {
         "title": "GSuite",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -985,7 +994,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#5aac98!important"
+              "color": "#1b75bb!important"
             }
           },
           "_params": {
@@ -1006,7 +1015,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1114,7 +1123,7 @@
     "page3.html": {
       "settings": {
         "title": "Website Development",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1188,7 +1197,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1375,7 +1384,7 @@
     "page4.html": {
       "settings": {
         "title": "Custom Tech",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -1449,7 +1458,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1577,7 +1586,7 @@
     "page5.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -1651,7 +1660,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1818,7 +1827,8 @@
     "page6.html": {
       "settings": {
         "title": "Terms &amp; Conditions",
-        "order": 6
+        "order": 7,
+        "footer_custom": ""
       },
       "components": [
         {
@@ -1892,7 +1902,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
