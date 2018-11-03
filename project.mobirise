@@ -49,7 +49,7 @@
         "title": "Home",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "<script async type=\"text/javascript\" src=\"//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/aa88a5646ec20a049a92dde8a5076c28d50c097c9cf0dd011897c73c8f010c7a.js\"></script> ",
+        "footer_custom": "<script async type=\"text/javascript\" src=\"//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/aa88a5646ec20a049a92dde8a5076c28d50c097c9cf0dd011897c73c8f010c7a.js\"></script>",
         "html_before": ""
       },
       "components": [
