@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WHT",
-    "currentPage": "index.html",
+    "currentPage": "page6.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -700,7 +700,9 @@
     "ContactUs.html": {
       "settings": {
         "title": "Contact Us",
-        "order": 2
+        "order": 2,
+        "footer_custom": "<script async type=\"text/javascript\" src=\"//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/aa88a5646ec20a049a92dde8a5076c28d50c097c9cf0dd011897c73c8f010c7a.js\"></script>",
+        "header_custom": ""
       },
       "components": [
         {
@@ -941,7 +943,8 @@
     "page2.html": {
       "settings": {
         "title": "GSuite",
-        "order": 3
+        "order": 3,
+        "footer_custom": "<script async type=\"text/javascript\" src=\"//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/aa88a5646ec20a049a92dde8a5076c28d50c097c9cf0dd011897c73c8f010c7a.js\"></script>"
       },
       "components": [
         {
@@ -1123,7 +1126,8 @@
     "page3.html": {
       "settings": {
         "title": "Website Development",
-        "order": 4
+        "order": 4,
+        "footer_custom": "<script async type=\"text/javascript\" src=\"//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/aa88a5646ec20a049a92dde8a5076c28d50c097c9cf0dd011897c73c8f010c7a.js\"></script>"
       },
       "components": [
         {
@@ -1384,7 +1388,8 @@
     "page4.html": {
       "settings": {
         "title": "Custom Tech",
-        "order": 5
+        "order": 5,
+        "footer_custom": "<script async type=\"text/javascript\" src=\"//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/aa88a5646ec20a049a92dde8a5076c28d50c097c9cf0dd011897c73c8f010c7a.js\"></script>"
       },
       "components": [
         {
@@ -1586,7 +1591,8 @@
     "page5.html": {
       "settings": {
         "title": "Privacy Policy",
-        "order": 6
+        "order": 6,
+        "footer_custom": "<script async type=\"text/javascript\" src=\"//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/aa88a5646ec20a049a92dde8a5076c28d50c097c9cf0dd011897c73c8f010c7a.js\"></script>"
       },
       "components": [
         {
@@ -1828,7 +1834,7 @@
       "settings": {
         "title": "Terms &amp; Conditions",
         "order": 7,
-        "footer_custom": ""
+        "footer_custom": "<script async type=\"text/javascript\" src=\"//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/aa88a5646ec20a049a92dde8a5076c28d50c097c9cf0dd011897c73c8f010c7a.js\"></script>"
       },
       "components": [
         {
