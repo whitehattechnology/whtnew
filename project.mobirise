@@ -1,12 +1,12 @@
 {
   "settings": {
-    "name": "Site-10-28_0941",
+    "name": "WHT",
     "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
       "styling": {
-        "primaryColor": "#5aac98",
+        "primaryColor": "#1b75bb",
         "secondaryColor": "#A25DAE",
         "successColor": "#1E7C3A",
         "infoColor": "#fffffd",
@@ -26,14 +26,16 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.2",
     "siteFonts": [],
-    "uniqCompNum": 48,
+    "uniqCompNum": 52,
     "versionPublish": "4.8.2",
     "favicon": "@PROJECT_PATH@/assets/images/wht-logo-only-128x155.png",
     "noImageResize": "",
-    "cookiesAlert": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "gdpr": "",
     "google-analytics": "",
-    "siteUrl": "undefined"
+    "siteUrl": "undefined",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on"
   },
   "pages": {
     "index.html": {
@@ -52,7 +54,7 @@
             "showText": false,
             "showButtons": true,
             "contentAlign": "center",
-            "showArrow": true,
+            "showArrow": false,
             "showFeatures": true,
             "columns": 3,
             "showFeaturesImages": true,
@@ -266,7 +268,8 @@
               "name": "like",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com"
+              "link": "ContactUs.html",
+              "newWindow": false
             }
           },
           "media2": {
@@ -276,7 +279,8 @@
               "name": "cloud",
               "family": "mobirise-icons-bold",
               "active": true,
-              "link": "https://mobirise.com"
+              "link": "https://cloud.withgoogle.com/partners/detail/?id=CIGAgICAgIDbxQE%3D&language=en&hl=en-US",
+              "newWindow": true
             }
           },
           "media3": {
@@ -286,7 +290,8 @@
               "name": "handshake-o",
               "family": "FontAwesome",
               "active": true,
-              "link": "https://mobirise.com"
+              "link": "ContactUs.html",
+              "newWindow": false
             }
           },
           "_tags": [
@@ -345,7 +350,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#5aac98!important"
+              "color": "#1b75bb!important"
             }
           },
           "_params": {
@@ -366,7 +371,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -396,15 +401,15 @@
           "_params": {
             "showIcons": true,
             "rows": "2",
-            "listColor": "@infoColor",
-            "btnColor": "@infoColor",
+            "listColor": "#1b75bb",
+            "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
@@ -414,7 +419,7 @@
             "overlayOpacity": 0.4
           },
           "heading": "Copyright 2018, White Hat Technology LLC.&nbsp;",
-          "list1": "Privacy Policy",
+          "list1": "<a href=\"page5.html\" class=\"text-primary\">Privacy Policy</a>",
           "list2": "Terms &amp; Conditions",
           "list3": "Privacy Policy",
           "list4": "<a href=\"http://mobirise.com\">Host anywhere</a>",
@@ -424,7 +429,7 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
@@ -432,17 +437,20 @@
           "_anchor": "footer2-d",
           "_styles": {
             ".footer-list": {
-              "color": "@infoColor"
+              "color": "#1b75bb"
             },
             ".btn-social": {
-              "border-color": "@infoColor",
-              "color": "@infoColor"
+              "border-color": "#1b75bb",
+              "color": "#1b75bb"
             },
             ".btn-social:hover": {
-              "background": "@infoColor",
+              "background": "#1b75bb",
               "color": "#fff"
             },
             "LI": {
+              "color": "#1b75bb"
+            },
+            ".footer-header": {
               "color": "#1b75bb"
             }
           }
@@ -480,7 +488,7 @@
           "title": "<b>Why G Suite?</b>",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "header": "Transform your workplace!",
+          "header": "Productivity = Profitability",
           "media1": {
             "iconFont": {
               "class": "mbr-iconfont",
@@ -757,7 +765,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -787,15 +795,15 @@
           "_params": {
             "showIcons": true,
             "rows": "2",
-            "listColor": "@infoColor",
-            "btnColor": "@infoColor",
+            "listColor": "#1b75bb",
+            "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
@@ -805,7 +813,7 @@
             "overlayOpacity": 0.4
           },
           "heading": "Copyright 2018, White Hat Technology LLC.&nbsp;",
-          "list1": "Privacy Policy",
+          "list1": "<a href=\"page5.html\" class=\"text-primary\">Privacy Policy</a>",
           "list2": "Terms &amp; Conditions",
           "list3": "Privacy Policy",
           "list4": "<a href=\"http://mobirise.com\">Host anywhere</a>",
@@ -815,24 +823,27 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
           "_name": "footer2",
           "_styles": {
             ".footer-list": {
-              "color": "@infoColor"
+              "color": "#1b75bb"
             },
             ".btn-social": {
-              "border-color": "@infoColor",
-              "color": "@infoColor"
+              "border-color": "#1b75bb",
+              "color": "#1b75bb"
             },
             ".btn-social:hover": {
-              "background": "@infoColor",
+              "background": "#1b75bb",
               "color": "#fff"
             },
             "LI": {
+              "color": "#1b75bb"
+            },
+            ".footer-header": {
               "color": "#1b75bb"
             }
           },
@@ -865,7 +876,7 @@
             "paddingTop": "4",
             "paddingBottom": 1,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -878,7 +889,7 @@
             "overlayOpacity": 0.95
           },
           "title": "Questions?&nbsp;",
-          "text": "We look forward to innovating solutions for your most pressing concerns.<br><br>",
+          "text": "We look forward to innovating solutions for your company.&nbsp;<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
           "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
           "form": {
@@ -995,7 +1006,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1025,15 +1036,15 @@
           "_params": {
             "showIcons": true,
             "rows": "2",
-            "listColor": "@infoColor",
-            "btnColor": "@infoColor",
+            "listColor": "#1b75bb",
+            "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
@@ -1043,7 +1054,7 @@
             "overlayOpacity": 0.4
           },
           "heading": "Copyright 2018, White Hat Technology LLC.&nbsp;",
-          "list1": "Privacy Policy",
+          "list1": "<a href=\"page5.html\" class=\"text-primary\">Privacy Policy</a>",
           "list2": "Terms &amp; Conditions",
           "list3": "Privacy Policy",
           "list4": "<a href=\"http://mobirise.com\">Host anywhere</a>",
@@ -1053,106 +1064,50 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
           "_name": "footer2",
           "_styles": {
             ".footer-list": {
-              "color": "@infoColor"
+              "color": "#1b75bb"
             },
             ".btn-social": {
-              "border-color": "@infoColor",
-              "color": "@infoColor"
+              "border-color": "#1b75bb",
+              "color": "#1b75bb"
             },
             ".btn-social:hover": {
-              "background": "@infoColor",
+              "background": "#1b75bb",
               "color": "#fff"
             },
             "LI": {
+              "color": "#1b75bb"
+            },
+            ".footer-header": {
               "color": "#1b75bb"
             }
           },
           "_anchor": "footer2-x"
         },
         {
-          "_styles": {
-            ".card": {
-              "background-color": "transparent",
-              "box-shadow": "none",
-              "border": "none"
-            },
-            ".card-img a": {
-              "color": "#616161",
-              "border-color": "#616161",
-              "border-width": "2px",
-              "line-height": "72px"
-            },
-            ".heading": {
-              "background": "#447eaa"
-            }
-          },
           "_params": {
-            "showHeading": true,
-            "showTitle": true,
-            "showText": true,
-            "showCheckbox": false,
-            "formBg": "#447eaa",
-            "formHeader": false,
-            "paddingTop": "4",
+            "paddingTop": "7",
             "paddingBottom": 1,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "overlay": false,
-            "overlayColor": "#fffffd",
-            "overlayOpacity": 0.95
+            "bgColor": "#ffffff"
           },
-          "title": "Questions?&nbsp;",
-          "text": "Please let us know what you need.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
-          "form": {
-            "action": "damianpreciado@whitehattechnology.com",
-            "alerts": {
-              "success": "Thanks for filling out this form! "
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\">Send message</a>",
-          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
+          "text": "G Suite info Coming soon",
           "_tags": [
             "Theme"
           ],
-          "_name": "form3",
-          "_anchor": "form3-y"
+          "_name": "content1",
+          "_anchor": "content1-1c",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-size": "60px"
+            }
+          }
         }
       ]
     },
@@ -1212,7 +1167,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#5aac98!important"
+              "color": "#1b75bb!important"
             }
           },
           "_params": {
@@ -1233,7 +1188,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1263,15 +1218,15 @@
           "_params": {
             "showIcons": true,
             "rows": "2",
-            "listColor": "@infoColor",
-            "btnColor": "@infoColor",
+            "listColor": "#1b75bb",
+            "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
@@ -1281,7 +1236,7 @@
             "overlayOpacity": 0.4
           },
           "heading": "Copyright 2018, White Hat Technology LLC.&nbsp;",
-          "list1": "Privacy Policy",
+          "list1": "<a href=\"page5.html\" class=\"text-primary\">Privacy Policy</a>",
           "list2": "Terms &amp; Conditions",
           "list3": "Privacy Policy",
           "list4": "<a href=\"http://mobirise.com\">Host anywhere</a>",
@@ -1291,106 +1246,129 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
           "_name": "footer2",
           "_styles": {
             ".footer-list": {
-              "color": "@infoColor"
+              "color": "#1b75bb"
             },
             ".btn-social": {
-              "border-color": "@infoColor",
-              "color": "@infoColor"
+              "border-color": "#1b75bb",
+              "color": "#1b75bb"
             },
             ".btn-social:hover": {
-              "background": "@infoColor",
+              "background": "#1b75bb",
               "color": "#fff"
             },
             "LI": {
+              "color": "#1b75bb"
+            },
+            ".footer-header": {
               "color": "#1b75bb"
             }
           },
           "_anchor": "footer2-10"
         },
         {
-          "_styles": {
-            ".card": {
-              "background-color": "transparent",
-              "box-shadow": "none",
-              "border": "none"
-            },
-            ".card-img a": {
-              "color": "#616161",
-              "border-color": "#616161",
-              "border-width": "2px",
-              "line-height": "72px"
-            },
-            ".heading": {
-              "background": "#447eaa"
-            }
-          },
           "_params": {
-            "showHeading": true,
-            "showTitle": true,
-            "showText": true,
-            "showCheckbox": false,
-            "formBg": "#447eaa",
-            "formHeader": false,
-            "paddingTop": "4",
-            "paddingBottom": 1,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
+            "showTitles": false,
+            "showTabsList": true,
+            "showText": false,
+            "showButtons": true,
+            "tabs": "3",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/tabs1.jpg",
             "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgColor": "#616161",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
             },
-            "overlay": false,
-            "overlayColor": "#fffffd",
-            "overlayOpacity": 0.95
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.8
           },
-          "title": "Questions?&nbsp;",
-          "text": "Please let us know what you need.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
-          "form": {
-            "action": "damianpreciado@whitehattechnology.com",
-            "alerts": {
-              "success": "Thanks for filling out this form! "
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
+          "title1": "BOOST YOUR RANKING",
+          "title2": "BOOTSTRAP BUILDER",
+          "title3": "TRENDY WEBSITE BLOCKS",
+          "title4": "Tab heading 4",
+          "title5": "Tab heading 5",
+          "title6": "Tab heading 6",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active text-info\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs2-1f\" aria-expanded=\"true\">Debit card</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs2-1f\" aria-expanded=\"false\">Withdraw</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs2-1f\" aria-expanded=\"false\">Add funds</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link text-info\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs2-1f\" aria-expanded=\"false\">Debit card</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs2-1f\">Withdraw</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs2-1f\">Add funds</a></li>",
+          "text1": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)!",
+          "text2": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.",
+          "text3": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
+          "list1": "<li>Stand Out</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
+          "list2": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
+          "list3": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
+          "list4": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
+          "list5": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
+          "list6": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
+          "button5": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
+          "button6": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x397.jpg",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
-          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\">Send message</a>",
-          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/card.png",
+              "width": 600
+            }
+          },
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/card2.png",
+              "width": 600
+            }
+          },
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/card.png",
+              "width": 600
+            }
+          },
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/card2.png",
+              "width": 600
+            }
+          },
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/card3.png",
+              "width": 600
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "form3",
-          "_anchor": "form3-11"
+          "_name": "tabs2",
+          "_anchor": "tabs2-1f"
         }
       ]
     },
@@ -1450,7 +1428,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#5aac98!important"
+              "color": "#1b75bb!important"
             }
           },
           "_params": {
@@ -1471,7 +1449,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1501,15 +1479,15 @@
           "_params": {
             "showIcons": true,
             "rows": "2",
-            "listColor": "@infoColor",
-            "btnColor": "@infoColor",
+            "listColor": "#1b75bb",
+            "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
@@ -1519,7 +1497,7 @@
             "overlayOpacity": 0.4
           },
           "heading": "Copyright 2018, White Hat Technology LLC.&nbsp;",
-          "list1": "Privacy Policy",
+          "list1": "<a href=\"page5.html\" class=\"text-primary\">Privacy Policy</a>",
           "list2": "Terms &amp; Conditions",
           "list3": "Privacy Policy",
           "list4": "<a href=\"http://mobirise.com\">Host anywhere</a>",
@@ -1529,106 +1507,70 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
           "_name": "footer2",
           "_styles": {
             ".footer-list": {
-              "color": "@infoColor"
+              "color": "#1b75bb"
             },
             ".btn-social": {
-              "border-color": "@infoColor",
-              "color": "@infoColor"
+              "border-color": "#1b75bb",
+              "color": "#1b75bb"
             },
             ".btn-social:hover": {
-              "background": "@infoColor",
+              "background": "#1b75bb",
               "color": "#fff"
             },
             "LI": {
+              "color": "#1b75bb"
+            },
+            ".footer-header": {
               "color": "#1b75bb"
             }
           },
           "_anchor": "footer2-13"
         },
         {
-          "_styles": {
-            ".card": {
-              "background-color": "transparent",
-              "box-shadow": "none",
-              "border": "none"
-            },
-            ".card-img a": {
-              "color": "#616161",
-              "border-color": "#616161",
-              "border-width": "2px",
-              "line-height": "72px"
-            },
-            ".heading": {
-              "background": "#447eaa"
-            }
-          },
           "_params": {
-            "showHeading": true,
             "showTitle": true,
-            "showText": true,
-            "showCheckbox": false,
-            "formBg": "#447eaa",
-            "formHeader": false,
-            "paddingTop": "4",
-            "paddingBottom": 1,
+            "collapseAll": true,
+            "tabs": "4",
+            "paddingTop": "3",
+            "paddingBottom": 2,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1260.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
             },
-            "overlay": false,
-            "overlayColor": "#fffffd",
-            "overlayOpacity": 0.95
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.7"
           },
-          "title": "Questions?&nbsp;",
-          "text": "Please let us know what you need.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
-          "form": {
-            "action": "damianpreciado@whitehattechnology.com",
-            "alerts": {
-              "success": "Thanks for filling out this form! "
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\">Send message</a>",
-          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
+          "title": "<div>Custom Technology Solutions\r</div>",
+          "title1": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-1d-init\" data-core=\"\" href=\"#collapseOneaccordion1-1d\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Learning Management System (LMS)</a>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-1d-init\" data-core=\"\" href=\"#collapseTwoaccordion1-1d\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">Data Aggregation &amp; Visualization</a>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-1d-init\" data-core=\"\" href=\"#collapseThreeaccordion1-1d\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Digital Security</a>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-1d-init\" data-core=\"\" href=\"#collapseFouraccordion1-1d\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Petition Tracking</a>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text1": "<p>Whether it's a full class or a training/capacity building session, access to your our own LMS allows for the delivery of curriculum to any size audience. An LMS can save you time and money.  It provides people in remote areas or with disabilities the opportunity to engage. We work with you to aggregate your organizations existing curriculum. We then partner with with educational professionals in order to curate your documents and recorded lessons into online curriculum. Click here for more information.</p>",
+          "text2": "<p>Data is the lifeblood of any modern organization. WHT works with you to gather insight from your existing reporting structure. Through Google Analytics we standardizing inputs and integrate with any system you rely on for data. We enhance your experience through the visualization of complex data sets. Each case is unique, and we look forward to yours. Click here for more information.\r</p>",
+          "text3": "<p>Digital security threats are real in the 21st century. At WHT we lead with a security first mindset.  Leveraging industry leader technology, the systems providing your web and application services are continually monitored for the most recent vulnerabilities and configuration misses. This continuing view into the systems maintains the highest level of security for your platform.  Click here for more information.</p>",
+          "text4": "<p>The petition signature gathering process poses various obstacles for both experienced teams and volunteers.  White Hat Technology (WHT) has developed the Petition Point (tm) platform which allows for the assingment and ongoing tracking of petitions for both intiatives and candidates. Contact us for mroe information.</p>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
           "_tags": [
             "Theme"
           ],
-          "_name": "form3",
-          "_anchor": "form3-14"
+          "_name": "accordion1",
+          "_anchor": "accordion1-1d"
         }
       ]
     },
@@ -1688,7 +1630,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#5aac98!important"
+              "color": "#1b75bb!important"
             }
           },
           "_params": {
@@ -1709,7 +1651,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1739,15 +1681,15 @@
           "_params": {
             "showIcons": true,
             "rows": "2",
-            "listColor": "@infoColor",
-            "btnColor": "@infoColor",
+            "listColor": "#1b75bb",
+            "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
@@ -1757,7 +1699,7 @@
             "overlayOpacity": 0.4
           },
           "heading": "Copyright 2018, White Hat Technology LLC.&nbsp;",
-          "list1": "Privacy Policy",
+          "list1": "<a href=\"page5.html\" class=\"text-primary\">Privacy Policy</a>",
           "list2": "Terms &amp; Conditions",
           "list3": "Privacy Policy",
           "list4": "<a href=\"http://mobirise.com\">Host anywhere</a>",
@@ -1767,24 +1709,27 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
           "_name": "footer2",
           "_styles": {
             ".footer-list": {
-              "color": "@infoColor"
+              "color": "#1b75bb"
             },
             ".btn-social": {
-              "border-color": "@infoColor",
-              "color": "@infoColor"
+              "border-color": "#1b75bb",
+              "color": "#1b75bb"
             },
             ".btn-social:hover": {
-              "background": "@infoColor",
+              "background": "#1b75bb",
               "color": "#fff"
             },
             "LI": {
+              "color": "#1b75bb"
+            },
+            ".footer-header": {
               "color": "#1b75bb"
             }
           },
@@ -1926,7 +1871,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#5aac98!important"
+              "color": "#1b75bb!important"
             }
           },
           "_params": {
@@ -1947,7 +1892,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1977,15 +1922,15 @@
           "_params": {
             "showIcons": true,
             "rows": "2",
-            "listColor": "@infoColor",
-            "btnColor": "@infoColor",
+            "listColor": "#1b75bb",
+            "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
@@ -1995,7 +1940,7 @@
             "overlayOpacity": 0.4
           },
           "heading": "Copyright 2018, White Hat Technology LLC.&nbsp;",
-          "list1": "Privacy Policy",
+          "list1": "<a href=\"page5.html\" class=\"text-primary\">Privacy Policy</a>",
           "list2": "Terms &amp; Conditions",
           "list3": "Privacy Policy",
           "list4": "<a href=\"http://mobirise.com\">Host anywhere</a>",
@@ -2005,24 +1950,27 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
           "_name": "footer2",
           "_styles": {
             ".footer-list": {
-              "color": "@infoColor"
+              "color": "#1b75bb"
             },
             ".btn-social": {
-              "border-color": "@infoColor",
-              "color": "@infoColor"
+              "border-color": "#1b75bb",
+              "color": "#1b75bb"
             },
             ".btn-social:hover": {
-              "background": "@infoColor",
+              "background": "#1b75bb",
               "color": "#fff"
             },
             "LI": {
+              "color": "#1b75bb"
+            },
+            ".footer-header": {
               "color": "#1b75bb"
             }
           },
