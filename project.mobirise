@@ -24,7 +24,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.2",
     "siteFonts": [],
-    "uniqCompNum": 47,
+    "uniqCompNum": 48,
     "versionPublish": "4.8.2",
     "favicon": "@PROJECT_PATH@/assets/images/wht-logo-only-128x155.png",
     "noImageResize": "",
@@ -59,7 +59,7 @@
             "showFeaturesTexts": true,
             "showFeaturesButtons": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1260.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#5b5f6b",
@@ -487,7 +487,7 @@
           },
           "title1": "Connect",
           "subtitle1": "Awesome",
-          "text1": "Reach your colleagues wherever they are.\n<br>\n<br>\n<br>",
+          "text1": "Reach your colleagues wherever they are.\n<br><br>\n<br>\n<br>",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
@@ -503,7 +503,7 @@
           },
           "title2": "Create",
           "subtitle2": "Awesome",
-          "text2": "Everything you need to bring your project to life in one place.<br>",
+          "text2": "Everything you need to bring your project to life in one place.<br><br><br>",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
@@ -519,7 +519,7 @@
           },
           "title3": "Access",
           "subtitle3": "Awesome",
-          "text3": "Store files and find what you need instantly.\n<br>",
+          "text3": "Store files and find what you need instantly.\n<br><br>",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media4": {
             "iconFont": {
@@ -535,7 +535,7 @@
           },
           "title4": "Control",
           "subtitle4": "Awesome",
-          "text4": "Manage users, devices, and data securely and easily.\n<br>\n<br>\n<br>",
+          "text4": "Manage users, devices, and data securely and easily.\n<br><br>\n<br>\n<br>",
           "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media5": {
             "iconFont": {
@@ -586,70 +586,82 @@
           }
         },
         {
+          "_styles": {
+            ".card": {
+              "background-color": "transparent",
+              "box-shadow": "none",
+              "border": "none"
+            },
+            ".card-img a": {
+              "color": "#616161",
+              "border-color": "#616161",
+              "border-width": "2px",
+              "line-height": "72px"
+            },
+            ".heading": {
+              "background": "#2b4484"
+            }
+          },
           "_params": {
-            "autoplay": true,
-            "timeout": 5,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "showBullets": true,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
+            "showHeading": true,
+            "showTitle": true,
+            "showText": true,
+            "showCheckbox": false,
+            "formBg": "#2b4484",
+            "formHeader": false,
+            "paddingTop": "4",
+            "paddingBottom": 1,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
             "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
             },
-            "overlay": true,
-            "overlayColor": "#5b5f6b",
-            "overlayOpacity": 0.95,
-            "slides": [
-              {
-                "active": false,
-                "showButtons": false,
-                "showImage": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Easy to use",
-                "image": "@PROJECT_PATH@/assets/images/01.png",
-                "contentAlign": "center",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptas quam illo amet, esse veniam autem perspiciatis impedit in assumenda cupiditate est quaerat ipsam cumque!",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "showButtons": false,
-                "showImage": true,
-                "showText": true,
-                "showTitle": true,
-                "image": "@PROJECT_PATH@/assets/images/02.png",
-                "title": "Visual Editor",
-                "contentAlign": "center",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, veniam, blanditiis. Amet nam quam, quas porro quia sequi, perspiciatis ex saepe perferendis repellendus ea tenetur.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": true,
-                "showButtons": false,
-                "showImage": true,
-                "showText": true,
-                "showTitle": true,
-                "image": "@PROJECT_PATH@/assets/images/gwc-logo-gmail-192-192x192.png",
-                "title": "Gmail",
-                "contentAlign": "center",
-                "text": "<br>Gmail keeps you updated with real-time message notifications, and safely stores your important emails and data. IT admins can centrally manage accounts across your organization and devices.&nbsp;<br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
-                "alt": ""
-              }
-            ]
+            "overlay": false,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
           },
-          "articleLayout": false,
+          "title": "Questions?&nbsp;",
+          "text": "We look forward to innovating solutions for your company.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
+          "form": {
+            "action": "damianpreciado@whitehattechnology.com",
+            "alerts": {
+              "success": "Thanks for filling out this form! "
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\">Send message</a>",
+          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "features1",
-          "_anchor": "features1-m"
+          "_name": "form3",
+          "_anchor": "form3-1b"
         }
       ]
     },
@@ -848,7 +860,7 @@
             "overlayOpacity": 0.95
           },
           "title": "Questions?&nbsp;",
-          "text": "Please let us know what you need.",
+          "text": "We look forward to innovating solutions for your most pressing concerns.<br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
           "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
           "form": {

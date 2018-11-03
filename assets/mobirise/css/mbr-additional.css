@@ -629,6 +629,20 @@ a:hover {
 #features3-j .features-title {
   text-align: center;
 }
+#form3-1b .card {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+#form3-1b .card-img a {
+  color: #616161;
+  border-color: #616161;
+  border-width: 2px;
+  line-height: 72px;
+}
+#form3-1b .heading {
+  background: #2b4484;
+}
 #menu1-s .hide-buttons .nav-btn {
   display: none !important;
 }
