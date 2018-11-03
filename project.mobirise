@@ -9,7 +9,7 @@
         "primaryColor": "#5aac98",
         "secondaryColor": "#A25DAE",
         "successColor": "#1E7C3A",
-        "infoColor": "#74a3c7",
+        "infoColor": "#fffffd",
         "warningColor": "#FFD785",
         "dangerColor": "#FF9685",
         "titleFont": "Oxygen",
@@ -19,7 +19,9 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#1b75bb"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.2",
@@ -81,8 +83,9 @@
               "name": "website-theme",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 40
+              "link": "page3.html",
+              "size": 40,
+              "newWindow": false
             }
           },
           "title1": "Website Development",
@@ -96,8 +99,9 @@
               "name": "cloud",
               "family": "mobirise-icons-bold",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 40
+              "link": "page2.html",
+              "size": 40,
+              "newWindow": false
             }
           },
           "title2": "Google Clound Services - G Suite",
@@ -111,8 +115,9 @@
               "name": "communication-business",
               "family": "Material-Design-Icons",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 40
+              "link": "page4.html",
+              "size": 40,
+              "newWindow": false
             }
           },
           "title3": "Custom Enterprise Solutions",
@@ -184,7 +189,7 @@
             "overlayOpacity": 0.2
           },
           "title": "Custom Solutions",
-          "text": "\"At WHT our clients come first. &nbsp;We leverage leading cloud based technology to help you work smarter not harder. &nbsp;Reach out today, <br>we look forward to hearing from you.\"&nbsp;<br><br>Damian Preciado<br>White Hat Technology LLC&nbsp;",
+          "text": "<a href=\"ContactUs.html\" class=\"text-info\">\"At WHT our clients come first. &nbsp;We leverage leading cloud based technology to help you work smarter not harder. &nbsp;Reach out today, </a><br><a href=\"ContactUs.html\" class=\"text-info\">we look forward to hearing from you.\"&nbsp;</a><br><br><a href=\"ContactUs.html\">Damian Preciado</a><br><a href=\"ContactUs.html\">White Hat Technology LLC&nbsp;</a>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Request more Info</a>",
           "_tags": [
             "Theme"
@@ -419,7 +424,7 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
@@ -436,6 +441,9 @@
             ".btn-social:hover": {
               "background": "@infoColor",
               "color": "#fff"
+            },
+            "LI": {
+              "color": "#1b75bb"
             }
           }
         },
@@ -460,7 +468,7 @@
             "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fffffd",
+            "bgColor": "#1b75bb",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
@@ -472,7 +480,7 @@
           "title": "<b>Why G Suite?</b>",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "header": "Transform your Workplace!",
+          "header": "Transform your workplace!",
           "media1": {
             "iconFont": {
               "class": "mbr-iconfont",
@@ -581,7 +589,14 @@
               "background": "#f6f7f8"
             },
             ".features-title": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#1b75bb"
+            },
+            ".heading-title B": {
+              "color": "#fffffd"
+            },
+            ".card-title": {
+              "color": "#1b75bb"
             }
           }
         },
@@ -599,7 +614,7 @@
               "line-height": "72px"
             },
             ".heading": {
-              "background": "#2b4484"
+              "background": "#1b75bb"
             }
           },
           "_params": {
@@ -607,7 +622,7 @@
             "showTitle": true,
             "showText": true,
             "showCheckbox": false,
-            "formBg": "#2b4484",
+            "formBg": "#1b75bb",
             "formHeader": false,
             "paddingTop": "4",
             "paddingBottom": 1,
@@ -800,7 +815,7 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
@@ -816,6 +831,9 @@
             ".btn-social:hover": {
               "background": "@infoColor",
               "color": "#fff"
+            },
+            "LI": {
+              "color": "#1b75bb"
             }
           },
           "_anchor": "footer2-t"
@@ -1035,7 +1053,7 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
@@ -1051,6 +1069,9 @@
             ".btn-social:hover": {
               "background": "@infoColor",
               "color": "#fff"
+            },
+            "LI": {
+              "color": "#1b75bb"
             }
           },
           "_anchor": "footer2-x"
@@ -1270,7 +1291,7 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
@@ -1286,6 +1307,9 @@
             ".btn-social:hover": {
               "background": "@infoColor",
               "color": "#fff"
+            },
+            "LI": {
+              "color": "#1b75bb"
             }
           },
           "_anchor": "footer2-10"
@@ -1505,7 +1529,7 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
@@ -1521,6 +1545,9 @@
             ".btn-social:hover": {
               "background": "@infoColor",
               "color": "#fff"
+            },
+            "LI": {
+              "color": "#1b75bb"
             }
           },
           "_anchor": "footer2-13"
@@ -1740,7 +1767,7 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
@@ -1756,6 +1783,9 @@
             ".btn-social:hover": {
               "background": "@infoColor",
               "color": "#fff"
+            },
+            "LI": {
+              "color": "#1b75bb"
             }
           },
           "_anchor": "footer2-16"
@@ -1975,7 +2005,7 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-primary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
@@ -1991,6 +2021,9 @@
             ".btn-social:hover": {
               "background": "@infoColor",
               "color": "#fff"
+            },
+            "LI": {
+              "color": "#1b75bb"
             }
           },
           "_anchor": "footer2-19"

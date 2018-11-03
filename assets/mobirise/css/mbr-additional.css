@@ -75,7 +75,7 @@ h6,
   background-color: #1e7c3a !important;
 }
 .bg-info {
-  background-color: #74a3c7 !important;
+  background-color: #fffffd !important;
 }
 .bg-warning {
   background-color: #ffd785 !important;
@@ -124,8 +124,8 @@ h6,
   border-color: #763f7f !important;
 }
 .btn-info {
-  background-color: #74a3c7;
-  border-color: #74a3c7;
+  background-color: #fffffd;
+  border-color: #fffffd;
   color: #ffffff;
 }
 .btn-info:hover,
@@ -134,14 +134,14 @@ h6,
 .btn-info:active,
 .btn-info.active {
   color: #ffffff;
-  background-color: #447eaa;
-  border-color: #447eaa;
+  background-color: #ffffb1;
+  border-color: #ffffb1;
 }
 .btn-info.disabled,
 .btn-info:disabled {
   color: #ffffff !important;
-  background-color: #447eaa !important;
-  border-color: #447eaa !important;
+  background-color: #ffffb1 !important;
+  border-color: #ffffb1 !important;
 }
 .btn-success {
   background-color: #1e7c3a;
@@ -245,8 +245,8 @@ h6,
 }
 .btn-info-outline {
   background: none;
-  border-color: #3d7198;
-  color: #3d7198;
+  border-color: #ffff97;
+  color: #ffff97;
 }
 .btn-info-outline:hover,
 .btn-info-outline:focus,
@@ -254,14 +254,14 @@ h6,
 .btn-info-outline:active,
 .btn-info-outline.active {
   color: #ffffff;
-  background-color: #74a3c7;
-  border-color: #74a3c7;
+  background-color: #fffffd;
+  border-color: #fffffd;
 }
 .btn-info-outline.disabled,
 .btn-info-outline:disabled {
   color: #ffffff !important;
-  background-color: #74a3c7 !important;
-  border-color: #74a3c7 !important;
+  background-color: #fffffd !important;
+  border-color: #fffffd !important;
 }
 .btn-success-outline {
   background: none;
@@ -330,7 +330,7 @@ h6,
   color: #1e7c3a !important;
 }
 .text-info {
-  color: #74a3c7 !important;
+  color: #fffffd !important;
 }
 .text-warning {
   color: #ffd785 !important;
@@ -342,7 +342,7 @@ h6,
   background-color: #1e7c3a;
 }
 .alert-info {
-  background-color: #74a3c7;
+  background-color: #fffffd;
 }
 .alert-warning {
   background-color: #ffd785;
@@ -382,7 +382,7 @@ h6,
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
-  color: #cfdfec;
+  color: #ffffff;
 }
 .mbr-plan-header.bg-warning .mbr-plan-subtitle,
 .mbr-plan-header.bg-warning .mbr-plan-price-desc {
@@ -401,7 +401,7 @@ h6,
 }
 /* DirectM */
 a {
-  color: #74a3c7;
+  color: #fffffd;
 }
 a:hover {
   color: #333;
@@ -484,7 +484,7 @@ a:hover {
   font-family: 'Libre Franklin', serif;
 }
 .mbr-gallery-filter li {
-  color: #74a3c7;
+  color: #fffffd;
 }
 .btn-empty:focus {
   color: #5aac98;
@@ -496,7 +496,7 @@ a:hover {
 }
 /* tabs1 */
 .tabs1 ul li a {
-  color: #74a3c7;
+  color: #fffffd;
 }
 /*tabs3*/
 .tabs3 .nav-tabs .nav-link.active {
@@ -609,15 +609,18 @@ a:hover {
   color: #5aac98!important;
 }
 #footer2-d .footer-list {
-  color: #74a3c7;
+  color: #fffffd;
 }
 #footer2-d .btn-social {
-  border-color: #74a3c7;
-  color: #74a3c7;
+  border-color: #fffffd;
+  color: #fffffd;
 }
 #footer2-d .btn-social:hover {
-  background: #74a3c7;
+  background: #fffffd;
   color: #fff;
+}
+#footer2-d LI {
+  color: #1b75bb;
 }
 #features3-j .mbr-iconfont {
   background: #5aac98;
@@ -628,6 +631,13 @@ a:hover {
 }
 #features3-j .features-title {
   text-align: center;
+  color: #1b75bb;
+}
+#features3-j .heading-title B {
+  color: #fffffd;
+}
+#features3-j .card-title {
+  color: #1b75bb;
 }
 #form3-1b .card {
   background-color: transparent;
@@ -641,7 +651,7 @@ a:hover {
   line-height: 72px;
 }
 #form3-1b .heading {
-  background: #2b4484;
+  background: #1b75bb;
 }
 #menu1-s .hide-buttons .nav-btn {
   display: none !important;
@@ -709,15 +719,18 @@ a:hover {
   color: #5aac98!important;
 }
 #footer2-t .footer-list {
-  color: #74a3c7;
+  color: #fffffd;
 }
 #footer2-t .btn-social {
-  border-color: #74a3c7;
-  color: #74a3c7;
+  border-color: #fffffd;
+  color: #fffffd;
 }
 #footer2-t .btn-social:hover {
-  background: #74a3c7;
+  background: #fffffd;
   color: #fff;
+}
+#footer2-t LI {
+  color: #1b75bb;
 }
 #form3-u .card {
   background-color: transparent;
@@ -799,15 +812,18 @@ a:hover {
   color: #5aac98!important;
 }
 #footer2-x .footer-list {
-  color: #74a3c7;
+  color: #fffffd;
 }
 #footer2-x .btn-social {
-  border-color: #74a3c7;
-  color: #74a3c7;
+  border-color: #fffffd;
+  color: #fffffd;
 }
 #footer2-x .btn-social:hover {
-  background: #74a3c7;
+  background: #fffffd;
   color: #fff;
+}
+#footer2-x LI {
+  color: #1b75bb;
 }
 #form3-y .card {
   background-color: transparent;
@@ -889,15 +905,18 @@ a:hover {
   color: #5aac98!important;
 }
 #footer2-10 .footer-list {
-  color: #74a3c7;
+  color: #fffffd;
 }
 #footer2-10 .btn-social {
-  border-color: #74a3c7;
-  color: #74a3c7;
+  border-color: #fffffd;
+  color: #fffffd;
 }
 #footer2-10 .btn-social:hover {
-  background: #74a3c7;
+  background: #fffffd;
   color: #fff;
+}
+#footer2-10 LI {
+  color: #1b75bb;
 }
 #form3-11 .card {
   background-color: transparent;
@@ -979,15 +998,18 @@ a:hover {
   color: #5aac98!important;
 }
 #footer2-13 .footer-list {
-  color: #74a3c7;
+  color: #fffffd;
 }
 #footer2-13 .btn-social {
-  border-color: #74a3c7;
-  color: #74a3c7;
+  border-color: #fffffd;
+  color: #fffffd;
 }
 #footer2-13 .btn-social:hover {
-  background: #74a3c7;
+  background: #fffffd;
   color: #fff;
+}
+#footer2-13 LI {
+  color: #1b75bb;
 }
 #form3-14 .card {
   background-color: transparent;
@@ -1069,15 +1091,18 @@ a:hover {
   color: #5aac98!important;
 }
 #footer2-16 .footer-list {
-  color: #74a3c7;
+  color: #fffffd;
 }
 #footer2-16 .btn-social {
-  border-color: #74a3c7;
-  color: #74a3c7;
+  border-color: #fffffd;
+  color: #fffffd;
 }
 #footer2-16 .btn-social:hover {
-  background: #74a3c7;
+  background: #fffffd;
   color: #fff;
+}
+#footer2-16 LI {
+  color: #1b75bb;
 }
 #form3-17 .card {
   background-color: transparent;
@@ -1159,15 +1184,18 @@ a:hover {
   color: #5aac98!important;
 }
 #footer2-19 .footer-list {
-  color: #74a3c7;
+  color: #fffffd;
 }
 #footer2-19 .btn-social {
-  border-color: #74a3c7;
-  color: #74a3c7;
+  border-color: #fffffd;
+  color: #fffffd;
 }
 #footer2-19 .btn-social:hover {
-  background: #74a3c7;
+  background: #fffffd;
   color: #fff;
+}
+#footer2-19 LI {
+  color: #1b75bb;
 }
 #form3-1a .card {
   background-color: transparent;
