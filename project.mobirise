@@ -246,7 +246,7 @@
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/google-cloud-partner-badge-png-410x200.png",
-              "link": "https://cloud.withgoogle.com/partners/detail/?id=CIGAgICAgIDbxQE%3D&language=en&hl=en-US",
+              "link": "https://goo.gl/forms/Z9AlfbpvezKEP5uH2",
               "alt": "",
               "title": "",
               "linkInNewWindow": true
@@ -697,249 +697,6 @@
         }
       ]
     },
-    "ContactUs.html": {
-      "settings": {
-        "title": "Contact Us",
-        "order": 1,
-        "footer_custom": "<script async type=\"text/javascript\" src=\"//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/aa88a5646ec20a049a92dde8a5076c28d50c097c9cf0dd011897c73c8f010c7a.js\"></script>",
-        "header_custom": ""
-      },
-      "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-toggler": {
-              "color": "#000000"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
-            },
-            ".link, .dropdown-item": {
-              "color": "#000000",
-              "font-family": "'Libre Franklin', serif"
-            },
-            ".link": {
-              "font-size": "0.8125rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.880rem"
-            },
-            ".link:hover, .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
-              "background": "@primaryColor"
-            },
-            ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#000000"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#fffffd"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#ffffee!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#fffffd"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#000000",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#1b75bb!important"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "hideButtons": true,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": false,
-            "bgColor": "#fffffd",
-            "fontSize": 0.8125,
-            "imageSize": 4,
-            "fontName": {
-              "name": "Libre Franklin",
-              "css": "'Libre Franklin', serif",
-              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
-            },
-            "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor"
-          },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://cloud.withgoogle.com/partners/contact/?partner=CIGAgICAgIDbxQE%3D&amp;language=en\" target=\"_blank\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" aria-expanded=\"false\" target=\"_blank\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/white-hat-logo-rgb-1-645x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu1",
-          "_customCSS": "",
-          "_anchor": "menu1-s"
-        },
-        {
-          "_params": {
-            "showIcons": true,
-            "rows": "2",
-            "listColor": "#1b75bb",
-            "btnColor": "#1b75bb",
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#fffffd",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
-            },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.4
-          },
-          "heading": "Copyright 2018, White Hat Technology LLC.&nbsp;",
-          "list1": "<a href=\"page5.html\" class=\"text-primary\">Privacy Policy</a>",
-          "list2": "<a href=\"page6.html\" class=\"text-primary\">Terms &amp; Conditions</a>",
-          "list3": "Privacy Policy",
-          "list4": "<a href=\"http://mobirise.com\">Host anywhere</a>",
-          "list5": "<a href=\"http://mobirise.com\">Image/Content slider</a>",
-          "list6": "<a href=\"http://mobirise.com\">Contact forms</a>",
-          "list7": "<a href=\"http://mobirise.com\">Image gallery</a>",
-          "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
-          "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
-          "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/WhiteHatTec\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/whitehattechnology/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer2",
-          "_styles": {
-            ".footer-list": {
-              "color": "#1b75bb"
-            },
-            ".btn-social": {
-              "border-color": "#1b75bb",
-              "color": "#1b75bb"
-            },
-            ".btn-social:hover": {
-              "background": "#1b75bb",
-              "color": "#fff"
-            },
-            "LI": {
-              "color": "#1b75bb"
-            },
-            ".footer-header": {
-              "color": "#1b75bb"
-            }
-          },
-          "_anchor": "footer2-t"
-        },
-        {
-          "_styles": {
-            ".card": {
-              "background-color": "transparent",
-              "box-shadow": "none",
-              "border": "none"
-            },
-            ".card-img a": {
-              "color": "#616161",
-              "border-color": "#616161",
-              "border-width": "2px",
-              "line-height": "72px"
-            },
-            ".heading": {
-              "background": "#447eaa"
-            }
-          },
-          "_params": {
-            "showHeading": true,
-            "showTitle": true,
-            "showText": true,
-            "showCheckbox": false,
-            "formBg": "#447eaa",
-            "formHeader": false,
-            "paddingTop": "4",
-            "paddingBottom": 1,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "overlay": false,
-            "overlayColor": "#fffffd",
-            "overlayOpacity": 0.95
-          },
-          "title": "Questions?&nbsp;",
-          "text": "We look forward to innovating solutions for your company.&nbsp;<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
-          "form": {
-            "action": "damianpreciado@whitehattechnology.com",
-            "alerts": {
-              "success": "Thanks for filling out this form! "
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send message</a>",
-          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form3",
-          "_anchor": "form3-u"
-        }
-      ]
-    },
     "page2.html": {
       "settings": {
         "title": "GSuite",
@@ -1052,10 +809,10 @@
             "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
             "parallax": false,
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -1108,8 +865,8 @@
             "showSubtitle": true,
             "showIcons": true,
             "firstType": "",
-            "secondType": "",
-            "thirdType": "primary",
+            "secondType": "primary",
+            "thirdType": "",
             "fourthType": "hidden",
             "bgColor1": "#455c97",
             "bgColor2": "#39937c",
@@ -1139,21 +896,21 @@
           "price2": "10",
           "price3": "25",
           "price4": "150",
-          "period1": "$/monthly",
-          "period2": "$/monthly",
-          "period3": "$/monthly",
+          "period1": "$/monthly per user",
+          "period2": "$/monthly&nbsp;per user",
+          "period3": "$/monthly&nbsp;per user",
           "period4": "$/monthly",
-          "description1": "Two months free",
-          "description2": "One month free",
+          "description1": "Two weeks free",
+          "description2": "Two weeks free",
           "description3": "Two weeks free",
           "description4": "One week free",
-          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Gmail </b>- Custom @ email for your comapny</li><li class=\"list-group-item\"><b>Calendar\n</b> -&nbsp;<span style=\"font-size: 1rem;\">Integrated online calendars designed for teams&nbsp;</span></li><li class=\"list-group-item\"><span style=\"font-size: 1rem;\"><b>Google+</b>\n -&nbsp;</span><span style=\"font-size: 1rem;\">Engage with coworkers on a secure corporate social network</span></li><li class=\"list-group-item\"><span style=\"font-size: 1rem;\"><b>Hangouts Chat\n -&nbsp;</b></span><span style=\"font-size: 1rem;\">A secure messaging platform built for teams</span></li><li class=\"list-group-item\">\n</li></ul>",
-          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Includes all basic features &amp;</b></li><li class=\"list-group-item\"><b><br></b></li><li class=\"list-group-item\"><br></li></ul>",
-          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Gmail - Custom @ email for your comapny\r</li><li class=\"list-group-item\">Calendar - Integrated online calendars designed for teams \r</li><li class=\"list-group-item\">Google+ - Engage with coworkers on a secure corporate social network\r</li><li class=\"list-group-item\">Hangouts Chat - A secure messaging platform built for teams</li></ul>",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Gmail </b>- Custom @ email for your comapny</li><li class=\"list-group-item\"><b>Calendar\n</b> -&nbsp;<span style=\"font-size: 1rem;\">Integrated online calendars designed for teams&nbsp;</span></li><li class=\"list-group-item\"><span style=\"font-size: 1rem;\"><b>Google+</b>\n -&nbsp;</span><span style=\"font-size: 1rem;\">Engage with coworkers on a secure corporate social network</span></li><li class=\"list-group-item\"><span style=\"font-size: 1rem;\"><b>Hangouts Chat\n -&nbsp;</b></span><span style=\"font-size: 1rem;\">A secure messaging platform built for teams</span></li><li class=\"list-group-item\"><span style=\"font-size: 1rem;\"><b>Docs </b>- Word processing for teams. Collaborate in real time.</span></li><li class=\"list-group-item\"><span style=\"font-size: 1rem;\"><b>Drive </b>- Store, access, and share your files in one secure place</span></li><li class=\"list-group-item\"><span style=\"font-size: 1rem;\"><b>Security &amp; Admin Tools</b> - Easily add users, manage devices, and configure security and settings so your data stays safe.</span></li><li class=\"list-group-item\"><span style=\"font-size: 1rem;\"><b>Support </b>- 24/7 by phone, email. &amp; online</span></li><li class=\"list-group-item\"><span style=\"font-size: 1rem;\"><br></span></li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Gmail - </b>Custom @ email for your comapny\r</li><li class=\"list-group-item\"><b>Calendar - </b>Integrated online calendars designed for teams \r</li><li class=\"list-group-item\"><b>Google+ - </b>Engage with coworkers on a secure corporate social network\r</li><li class=\"list-group-item\"><b>Hangouts Chat - </b>A secure messaging platform built for teams<b>\r</b></li><li class=\"list-group-item\"><b>Docs - </b>Word processing for teams. Collaborate in real time.</li><li class=\"list-group-item\"><b>Drive - </b>Store, access, and share your files in one secure place\r</li><li class=\"list-group-item\"><b>Security &amp; Admin Tools - </b>Easily add users, manage devices, and configure security and settings so your data stays safe.</li><li class=\"list-group-item\"><b>Support - </b>24/7 by phone, email. &amp; online</li><li class=\"list-group-item\"><b>App Dev Tools - </b>Business apps your company needs, to<span style=\"font-size: 1rem;\">&nbsp;accelerate business workflows or scaling internal operations</span></li><li class=\"list-group-item\"><b>Smart Search - &nbsp;</b>The information you need, right when you need it\n.&nbsp;<span style=\"font-size: 1rem;\">Use the power of Google to search across your company’s content&nbsp;</span></li><li class=\"list-group-item\"><b>Advanced Security Control - </b>Alert Center, Archive and set retention policies for emails and chats, &amp;&nbsp;<span style=\"font-size: 1rem;\">Data regions for G Suite</span></li><li class=\"list-group-item\"><br></li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Includes all business features &amp;</b></li><li class=\"list-group-item\"><b>Security - </b>Security Center Access</li><li class=\"list-group-item\"><b>eDiscovery -</b> Data Loss Prevention for Gmail &amp; Drive, Hosted S/MIME for Gmail, &nbsp;Integrate Gmail with compliant 3rd-party archiving tools, Enterprise Grade Control with Security Key, &nbsp;Gmail Log analysis in BigQuery</li></ul>",
           "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Mobirise horizontal navigation menu collapses on devices to a single-icon mobile menu, also know as \"hamburger menu\", for a flawless mobile experience for all visitors.</li><li class=\"list-group-item\">Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.</li><li class=\"list-group-item\">20 GB bandwidth</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">DEMO</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">DEMO</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">DEMO</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Demo Request</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Demo Request</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Demo Request</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">DEMO</a>",
           "_tags": [
             "Theme"
@@ -1331,10 +1088,10 @@
             "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
             "parallax": false,
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -1593,10 +1350,10 @@
             "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
             "parallax": false,
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -1667,13 +1424,13 @@
           "title1": "<a role=\"button\" class=\"collapsed text-black\" data-toggle=\"collapse\" data-parent=\"#accordion1-1d-init\" data-core=\"\" href=\"#collapseOneaccordion1-1d\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Learning Management System (LMS)</a>",
           "title2": "<a role=\"button\" class=\"collapsed text-black\" data-toggle=\"collapse\" data-parent=\"#accordion1-1d-init\" data-core=\"\" href=\"#collapseTwoaccordion1-1d\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Data Aggregation &amp; Visualization</a>",
           "title3": "<a role=\"button\" class=\"text-black\" data-toggle=\"collapse\" data-parent=\"#accordion1-1d-init\" data-core=\"\" href=\"#collapseThreeaccordion1-1d\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Digital Security</a>",
-          "title4": "<a role=\"button\" class=\"collapsed text-black\" data-toggle=\"collapse\" data-parent=\"#accordion1-1d-init\" data-core=\"\" href=\"#collapseFouraccordion1-1d\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Petition Tracking</a>",
+          "title4": "<a role=\"button\" class=\"text-black\" data-toggle=\"collapse\" data-parent=\"#accordion1-1d-init\" data-core=\"\" href=\"#collapseFouraccordion1-1d\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Petition Tracking</a>",
           "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
           "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
           "text1": "<p>Whether it's a full class or a training/capacity building session, access to your our own LMS allows for the delivery of curriculum to any size audience. An LMS can save you time and money.  It provides people in remote areas or with disabilities the opportunity to engage. We work with you to aggregate your organizations existing curriculum. We then partner with with educational professionals in order to curate your documents and recorded lessons into online curriculum. Click here for more information.</p>",
           "text2": "<p>Data is the lifeblood of any modern organization. WHT works with you to gather insight from your existing reporting structure. Through Google Analytics we standardizing inputs and integrate with any system you rely on for data. We enhance your experience through the visualization of complex data sets. Each case is unique, and we look forward to yours. Click here for more information.\r</p>",
           "text3": "<p>Digital security threats are real in the 21st century. At WHT we lead with a security first mindset.  Leveraging industry leader technology, the systems providing your web and application services are continually monitored for the most recent vulnerabilities and configuration misses. This continuing view into the systems maintains the highest level of security for your platform.  Click here for more information.</p>",
-          "text4": "<p>The petition signature gathering process poses various obstacles for both experienced teams and volunteers.  White Hat Technology (WHT) has developed the Petition Point (tm) platform which allows for the assingment and ongoing tracking of petitions for both intiatives and candidates. Contact us for mroe information.</p>",
+          "text4": "<p>The petition signature gathering process poses various obstacles for both experienced teams and volunteers. White Hat Technology (WHT) has developed the Petition Point (tm) platform which allows for the assignment and ongoing tracking of petitions for both initiatives and candidates. Contact us for more information.</p>",
           "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
           "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
           "_tags": [
@@ -1815,10 +1572,10 @@
             "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
             "parallax": false,
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -2011,10 +1768,10 @@
             "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
             "parallax": false,
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
