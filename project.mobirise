@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WHT",
-    "currentPage": "TermsandConditions.html",
+    "currentPage": "WebsiteDevelopment.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -1067,7 +1067,7 @@
             "fourthType": "hidden",
             "bgColor1": "#455c97",
             "bgColor2": "#39937c",
-            "paddingTop": "3",
+            "paddingTop": "4",
             "paddingBottom": 2,
             "showButtons": true,
             "bgImageRadio": false,
@@ -1107,7 +1107,7 @@
           "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Mobirise horizontal navigation menu collapses on devices to a single-icon mobile menu, also know as \"hamburger menu\", for a flawless mobile experience for all visitors.</li><li class=\"list-group-item\">Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.</li><li class=\"list-group-item\">20 GB bandwidth</li></ul>",
           "button1": "<a data-app-btn=\"true\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Demo Request</a>",
           "button2": "<a data-app-btn=\"true\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Demo Request</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Demo Request</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Demo Request</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">DEMO</a>",
           "_tags": [
             "Theme"
@@ -1126,7 +1126,7 @@
       "components": [
         {
           "_params": {
-            "paddingTop": "5",
+            "paddingTop": "6",
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
@@ -1363,7 +1363,7 @@
           "title4": "Tab heading 4",
           "title5": "Tab heading 5",
           "title6": "Tab heading 6",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link text-empty active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs2-1f\" aria-expanded=\"true\">Engage</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs2-1f\" aria-expanded=\"false\">Monitor</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link text-empty\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs2-1f\" aria-expanded=\"false\">Grow</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link text-info\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs2-1f\" aria-expanded=\"false\">Debit card</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs2-1f\">Withdraw</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs2-1f\">Add funds</a></li>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link text-empty\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs2-1f\" aria-expanded=\"false\">Engage</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs2-1f\" aria-expanded=\"false\">Monitor</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link text-empty active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs2-1f\" aria-expanded=\"true\">Grow</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link text-info\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs2-1f\" aria-expanded=\"false\">Debit card</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs2-1f\">Withdraw</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs2-1f\">Add funds</a></li>",
           "text1": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)!",
           "text2": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.",
           "text3": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
@@ -1376,9 +1376,9 @@
           "list4": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
           "list5": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
           "list6": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"ContactUs.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
-          "button2": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"ContactUs.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
-          "button3": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"ContactUs.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Contact Us</a>",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Contact Us</a>",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Contact Us</a>",
           "button4": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
           "button5": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
           "button6": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>",
