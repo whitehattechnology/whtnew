@@ -656,6 +656,92 @@ a:hover {
 #form3-1b .heading {
   background: #1b75bb;
 }
+#content4-1q P {
+  font-size: 48px;
+  text-align: center;
+}
+#menu1-1r .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu1-1r .navbar-toggler {
+  color: #000000;
+}
+#menu1-1r .close-icon::before,
+#menu1-1r .close-icon::after {
+  background-color: #000000;
+}
+#menu1-1r .link,
+#menu1-1r .dropdown-item {
+  color: #000000;
+  font-family: 'Libre Franklin', serif;
+}
+#menu1-1r .link {
+  font-size: 0.8125rem;
+}
+#menu1-1r .dropdown-item,
+#menu1-1r .nav-dropdown-sm .link {
+  font-size: 0.880rem;
+}
+#menu1-1r .link:hover,
+#menu1-1r .link:focus {
+  color: #1b75bb;
+}
+#menu1-1r .dropdown-item:hover::before,
+#menu1-1r .dropdown-item:focus::before {
+  background: #1b75bb;
+}
+#menu1-1r .dropdown-item:hover,
+#menu1-1r .dropdown-item:focus {
+  color: #000000;
+}
+#menu1-1r .link[aria-expanded="true"],
+#menu1-1r .dropdown-menu {
+  background: #fffffd;
+}
+#menu1-1r .nav-dropdown-sm .link:focus,
+#menu1-1r .nav-dropdown-sm .link:hover,
+#menu1-1r .nav-dropdown-sm .dropdown-item:focus,
+#menu1-1r .nav-dropdown-sm .dropdown-item:hover {
+  background: #ffffee!important;
+}
+#menu1-1r .navbar,
+#menu1-1r .nav-dropdown-sm,
+#menu1-1r .nav-dropdown-sm .link[aria-expanded="true"],
+#menu1-1r .nav-dropdown-sm .dropdown-menu {
+  background: #fffffd;
+}
+#menu1-1r .bg-color.transparent .link {
+  color: #000000;
+  transition: none;
+}
+#menu1-1r .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu1-1r .bg-color.transparent.opened .link:hover,
+#menu1-1r .bg-color.transparent.opened .link:focus {
+  color: #1b75bb;
+}
+#menu1-1r .link[aria-expanded="true"],
+#menu1-1r .dropdown-item[aria-expanded="true"] {
+  color: #1b75bb!important;
+}
+#footer2-1s .footer-list {
+  color: #1b75bb;
+}
+#footer2-1s .btn-social {
+  border-color: #1b75bb;
+  color: #1b75bb;
+}
+#footer2-1s .btn-social:hover {
+  background: #1b75bb;
+  color: #fff;
+}
+#footer2-1s LI {
+  color: #1b75bb;
+}
+#footer2-1s .footer-header {
+  color: #1b75bb;
+}
 #menu1-w .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -990,91 +1076,5 @@ a:hover {
   color: #1b75bb;
 }
 #footer2-16 .footer-header {
-  color: #1b75bb;
-}
-#content4-1q P {
-  font-size: 48px;
-  text-align: center;
-}
-#menu1-1r .hide-buttons .nav-btn {
-  display: none !important;
-}
-#menu1-1r .navbar-toggler {
-  color: #000000;
-}
-#menu1-1r .close-icon::before,
-#menu1-1r .close-icon::after {
-  background-color: #000000;
-}
-#menu1-1r .link,
-#menu1-1r .dropdown-item {
-  color: #000000;
-  font-family: 'Libre Franklin', serif;
-}
-#menu1-1r .link {
-  font-size: 0.8125rem;
-}
-#menu1-1r .dropdown-item,
-#menu1-1r .nav-dropdown-sm .link {
-  font-size: 0.880rem;
-}
-#menu1-1r .link:hover,
-#menu1-1r .link:focus {
-  color: #1b75bb;
-}
-#menu1-1r .dropdown-item:hover::before,
-#menu1-1r .dropdown-item:focus::before {
-  background: #1b75bb;
-}
-#menu1-1r .dropdown-item:hover,
-#menu1-1r .dropdown-item:focus {
-  color: #000000;
-}
-#menu1-1r .link[aria-expanded="true"],
-#menu1-1r .dropdown-menu {
-  background: #fffffd;
-}
-#menu1-1r .nav-dropdown-sm .link:focus,
-#menu1-1r .nav-dropdown-sm .link:hover,
-#menu1-1r .nav-dropdown-sm .dropdown-item:focus,
-#menu1-1r .nav-dropdown-sm .dropdown-item:hover {
-  background: #ffffee!important;
-}
-#menu1-1r .navbar,
-#menu1-1r .nav-dropdown-sm,
-#menu1-1r .nav-dropdown-sm .link[aria-expanded="true"],
-#menu1-1r .nav-dropdown-sm .dropdown-menu {
-  background: #fffffd;
-}
-#menu1-1r .bg-color.transparent .link {
-  color: #000000;
-  transition: none;
-}
-#menu1-1r .bg-color.transparent.opened .link {
-  transition: color 0.2s ease-in-out;
-}
-#menu1-1r .bg-color.transparent.opened .link:hover,
-#menu1-1r .bg-color.transparent.opened .link:focus {
-  color: #1b75bb;
-}
-#menu1-1r .link[aria-expanded="true"],
-#menu1-1r .dropdown-item[aria-expanded="true"] {
-  color: #1b75bb!important;
-}
-#footer2-1s .footer-list {
-  color: #1b75bb;
-}
-#footer2-1s .btn-social {
-  border-color: #1b75bb;
-  color: #1b75bb;
-}
-#footer2-1s .btn-social:hover {
-  background: #1b75bb;
-  color: #fff;
-}
-#footer2-1s LI {
-  color: #1b75bb;
-}
-#footer2-1s .footer-header {
   color: #1b75bb;
 }
