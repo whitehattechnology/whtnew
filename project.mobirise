@@ -23,14 +23,13 @@
         "#1b75bb",
         "#bef50a",
         "#19b68f",
-        "#58baa0",
-        "#4a4a4a"
+        "#58baa0"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.2",
     "siteFonts": [],
-    "uniqCompNum": 71,
+    "uniqCompNum": 53,
     "versionPublish": "4.8.2",
     "favicon": "@PROJECT_PATH@/assets/images/wht-logo-only-128x155.png",
     "noImageResize": "",
@@ -83,7 +82,7 @@
           },
           "title": "<br>Your Local Technology Provider",
           "text": "No problem too small, no idea too big.\n<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"ContactUs.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Contact Us</a>",
           "media1": {
             "iconFont": {
               "class": "mbr-iconfont",
@@ -197,7 +196,7 @@
             "overlayOpacity": 0.2
           },
           "title": "Custom Solutions",
-          "text": "<a href=\"ContactUs.html\" class=\"text-info\">\"At WHT our clients come first. &nbsp;We leverage leading cloud based technology to help you work smarter not harder. &nbsp;Reach out today, </a><br><a href=\"ContactUs.html\" class=\"text-info\">we look forward to hearing from you.\"&nbsp;</a><br><br><a href=\"ContactUs.html\">Damian Preciado</a><br><a href=\"ContactUs.html\">White Hat Technology LLC&nbsp;</a>",
+          "text": "<a href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" class=\"text-info\" target=\"_blank\">\"At WHT our clients come first. &nbsp;We leverage leading cloud based technology to help you work smarter not harder. &nbsp;Reach out today, </a><br><a href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" class=\"text-info\" target=\"_blank\">we look forward to hearing from you.\"&nbsp;</a><br><br><a href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" target=\"_blank\">Damian Preciado</a><br><a href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" target=\"_blank\">White Hat Technology LLC&nbsp;</a>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Request more Info</a>",
           "_tags": [
             "Theme"
@@ -377,7 +376,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://cloud.withgoogle.com/partners/contact/?partner=CIGAgICAgIDbxQE%3D&amp;language=en\" target=\"_blank\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" aria-expanded=\"false\" target=\"_blank\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -777,7 +776,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://cloud.withgoogle.com/partners/contact/?partner=CIGAgICAgIDbxQE%3D&amp;language=en\" target=\"_blank\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" aria-expanded=\"false\" target=\"_blank\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -811,10 +810,10 @@
             "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
             "parallax": false,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -1019,7 +1018,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://cloud.withgoogle.com/partners/contact/?partner=CIGAgICAgIDbxQE%3D&amp;language=en\" target=\"_blank\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" aria-expanded=\"false\" target=\"_blank\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1053,10 +1052,10 @@
             "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
             "parallax": false,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -1105,22 +1104,62 @@
         },
         {
           "_params": {
-            "paddingTop": "7",
-            "paddingBottom": 1,
-            "bgColor": "#ffffff"
+            "showTitle": true,
+            "showSubtitle": true,
+            "showIcons": true,
+            "firstType": "",
+            "secondType": "",
+            "thirdType": "primary",
+            "fourthType": "hidden",
+            "bgColor1": "#455c97",
+            "bgColor2": "#39937c",
+            "paddingTop": "3",
+            "paddingBottom": 2,
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/tabs1.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
-          "text": "G Suite info Coming soon",
+          "title": "Choose your G Suite edition.",
+          "subtitle": "Try it free for 14 days.",
+          "title1": "Basic",
+          "title2": "Business",
+          "title3": "Enterprise",
+          "title4": "Ultimate",
+          "price1": "5",
+          "price2": "10",
+          "price3": "25",
+          "price4": "150",
+          "period1": "$/monthly",
+          "period2": "$/monthly",
+          "period3": "$/monthly",
+          "period4": "$/monthly",
+          "description1": "Two months free",
+          "description2": "One month free",
+          "description3": "Two weeks free",
+          "description4": "One week free",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Gmail </b>- Custom @ email for your comapny</li><li class=\"list-group-item\"><b>Calendar\n</b> -&nbsp;<span style=\"font-size: 1rem;\">Integrated online calendars designed for teams&nbsp;</span></li><li class=\"list-group-item\"><span style=\"font-size: 1rem;\"><b>Google+</b>\n -&nbsp;</span><span style=\"font-size: 1rem;\">Engage with coworkers on a secure corporate social network</span></li><li class=\"list-group-item\"><span style=\"font-size: 1rem;\"><b>Hangouts Chat\n -&nbsp;</b></span><span style=\"font-size: 1rem;\">A secure messaging platform built for teams</span></li><li class=\"list-group-item\">\n</li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Includes all basic features &amp;</b></li><li class=\"list-group-item\"><b><br></b></li><li class=\"list-group-item\"><br></li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Gmail - Custom @ email for your comapny\r</li><li class=\"list-group-item\">Calendar - Integrated online calendars designed for teams \r</li><li class=\"list-group-item\">Google+ - Engage with coworkers on a secure corporate social network\r</li><li class=\"list-group-item\">Hangouts Chat - A secure messaging platform built for teams</li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Mobirise horizontal navigation menu collapses on devices to a single-icon mobile menu, also know as \"hamburger menu\", for a flawless mobile experience for all visitors.</li><li class=\"list-group-item\">Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.</li><li class=\"list-group-item\">20 GB bandwidth</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">DEMO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">DEMO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">DEMO</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">DEMO</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
-          "_anchor": "content1-1c",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "font-size": "60px"
-            }
-          }
+          "_name": "pricing-table3",
+          "_anchor": "pricing-table3-1z"
         }
       ]
     },
@@ -1179,7 +1218,7 @@
             }
           },
           "title": "Download for Windows",
-          "text": "Full screen intro with parallax image background and color overlay and a picture on right. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, provident laudantium quos, necessitatibus tempora nemo suscipit quia repudiandae saepe fugiat at pariatur iste natus officia animi qui cumque? Optio, expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nam, illo recusandae vitae obcaecati reprehenderit ad officiis odio necessitatibus? Velit nemo animi magnam voluptatum reprehenderit quo perspiciatis debitis cumque nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui aperiam, asperiores hic? Quo ullam placeat ut, aspernatur quos veritatis ipsam. Dicta labore aut eos, animi reprehenderit dolore nihil mollitia minus.",
+          "text": "An engaging website is a must for any business. &nbsp;Let us help your business transform it's online prescence. &nbsp;We'll work wtih you to ensure you ahve the most advanced &amp; convenisenet features you that your clients come to expect and provide you wtih the tools to scale your business. &nbsp;Whether it's revitalizing your existing website or starting with a new idea. &nbsp;We can help you launch efficiently and securely from day one.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_tags": [
             "Theme"
@@ -1258,7 +1297,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://cloud.withgoogle.com/partners/contact/?partner=CIGAgICAgIDbxQE%3D&amp;language=en\" target=\"_blank\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" aria-expanded=\"false\" target=\"_blank\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1292,10 +1331,10 @@
             "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
             "parallax": false,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -1370,16 +1409,16 @@
           "title4": "Tab heading 4",
           "title5": "Tab heading 5",
           "title6": "Tab heading 6",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link text-empty\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs2-1f\" aria-expanded=\"false\">Engage</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs2-1f\" aria-expanded=\"true\">Monitor</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link text-empty\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs2-1f\" aria-expanded=\"false\">Grow</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link text-info\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs2-1f\" aria-expanded=\"false\">Debit card</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs2-1f\">Withdraw</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs2-1f\">Add funds</a></li>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link text-empty active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs2-1f\" aria-expanded=\"true\">Engage</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs2-1f\" aria-expanded=\"false\">Monitor</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link text-empty\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs2-1f\" aria-expanded=\"false\">Grow</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link text-info\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs2-1f\" aria-expanded=\"false\">Debit card</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs2-1f\">Withdraw</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs2-1f\">Add funds</a></li>",
           "text1": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)!",
           "text2": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.",
           "text3": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
           "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
           "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
           "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
-          "list1": "<li></li>Gain visibility with you customer<br><br><li>Share your products and services</li><br><li>Manage your brand &amp; message</li><br><br>",
-          "list2": "<li></li>Track your site activity<br><br><li>Enter in any string, and watch it type at the speed you have set</li>",
-          "list3": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
+          "list1": "<li></li>Gain visibility with you customers in the market<br><br><li>Share your products and services</li><br><li>Manage your brand &amp; message</li><br><br>",
+          "list2": "<li></li>Know your clients better through analytics<br><br><li>Grow your sales through coordinated campaigns</li>",
+          "list3": "<li>Mobile friendly benefits you in fast growing market</li><br><li></li>Grow your sales through coordinated campaigns<br><br><li>Gain customers in new markets</li>",
           "list4": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
           "list5": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
           "list6": "<li>Block with media and \"typed\" text effect.</li><br><li>Enter in any string, and watch it type at the speed you have set</li><br><li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>",
@@ -1520,7 +1559,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://cloud.withgoogle.com/partners/contact/?partner=CIGAgICAgIDbxQE%3D&amp;language=en\" target=\"_blank\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" aria-expanded=\"false\" target=\"_blank\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1554,10 +1593,10 @@
             "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
             "parallax": false,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -1742,7 +1781,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://cloud.withgoogle.com/partners/contact/?partner=CIGAgICAgIDbxQE%3D&amp;language=en\" target=\"_blank\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" aria-expanded=\"false\" target=\"_blank\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1776,10 +1815,10 @@
             "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
             "parallax": false,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -1938,7 +1977,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ContactUs.html\" aria-expanded=\"false\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Our Solutions</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://cloud.withgoogle.com/partners/contact/?partner=CIGAgICAgIDbxQE%3D&amp;language=en\" target=\"_blank\">G Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Website Development</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Custom Solutions</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://goo.gl/forms/Z9AlfbpvezKEP5uH2\" aria-expanded=\"false\" target=\"_blank\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1972,10 +2011,10 @@
             "btnColor": "#1b75bb",
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1304.jpg",
             "parallax": false,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
