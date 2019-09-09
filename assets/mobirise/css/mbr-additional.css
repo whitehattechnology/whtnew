@@ -522,6 +522,11 @@ a:hover {
 #header1-0 .mbr-table-cell {
   vertical-align: bottom;
 }
+#header1-0 .heading-text {
+  text-align: center;
+  font-size: 32px;
+  color: #fffffd;
+}
 #content5-k .mbr-section-title,
 #content5-k .mbr-section-subtitle {
   margin-bottom: 1rem;
@@ -635,6 +640,7 @@ a:hover {
 #features3-j .features-title {
   text-align: center;
   color: #1b75bb;
+  font-size: 46px;
 }
 #features3-j .heading-title B {
   color: #fffffd;
@@ -1091,4 +1097,99 @@ a:hover {
 }
 #footer2-16 .footer-header {
   color: #1b75bb;
+}
+#content4-1i P {
+  text-align: center;
+  font-size: 36px;
+}
+#menu1-w .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu1-w .navbar-toggler {
+  color: #000000;
+}
+#menu1-w .close-icon::before,
+#menu1-w .close-icon::after {
+  background-color: #000000;
+}
+#menu1-w .link,
+#menu1-w .dropdown-item {
+  color: #000000;
+  font-family: 'Libre Franklin', serif;
+}
+#menu1-w .link {
+  font-size: 0.8125rem;
+}
+#menu1-w .dropdown-item,
+#menu1-w .nav-dropdown-sm .link {
+  font-size: 0.880rem;
+}
+#menu1-w .link:hover,
+#menu1-w .link:focus {
+  color: #1b75bb;
+}
+#menu1-w .dropdown-item:hover::before,
+#menu1-w .dropdown-item:focus::before {
+  background: #1b75bb;
+}
+#menu1-w .dropdown-item:hover,
+#menu1-w .dropdown-item:focus {
+  color: #000000;
+}
+#menu1-w .link[aria-expanded="true"],
+#menu1-w .dropdown-menu {
+  background: #fffffd;
+}
+#menu1-w .nav-dropdown-sm .link:focus,
+#menu1-w .nav-dropdown-sm .link:hover,
+#menu1-w .nav-dropdown-sm .dropdown-item:focus,
+#menu1-w .nav-dropdown-sm .dropdown-item:hover {
+  background: #ffffee!important;
+}
+#menu1-w .navbar,
+#menu1-w .nav-dropdown-sm,
+#menu1-w .nav-dropdown-sm .link[aria-expanded="true"],
+#menu1-w .nav-dropdown-sm .dropdown-menu {
+  background: #fffffd;
+}
+#menu1-w .bg-color.transparent .link {
+  color: #000000;
+  transition: none;
+}
+#menu1-w .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu1-w .bg-color.transparent.opened .link:hover,
+#menu1-w .bg-color.transparent.opened .link:focus {
+  color: #1b75bb;
+}
+#menu1-w .link[aria-expanded="true"],
+#menu1-w .dropdown-item[aria-expanded="true"] {
+  color: #1b75bb!important;
+}
+#footer2-x .footer-list {
+  color: #1b75bb;
+}
+#footer2-x .btn-social {
+  border-color: #1b75bb;
+  color: #1b75bb;
+}
+#footer2-x .btn-social:hover {
+  background: #1b75bb;
+  color: #fff;
+}
+#footer2-x LI {
+  color: #1b75bb;
+}
+#footer2-x .footer-header {
+  color: #1b75bb;
+}
+#pricing-table3-1z .mbr-section__container .mbr-section-title {
+  font-size: 46px;
+}
+#pricing-table3-1z .mbr-price-value {
+  font-size: 14px;
+}
+#pricing-table3-1z .mbr-price-figure {
+  font-size: 60px;
 }
